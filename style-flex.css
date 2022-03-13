@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.encabezado {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: fixed;
+  box-shadow: 3px 3px 10px #ffa801;
+  top: 0;
+  width: 100%;
+  color: aliceblue;
+  background: linear-gradient(to right, #136a8a, #267871);
+}
+h1 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.h2-inicio {
+  margin-top: 22px;
+  margin-right: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+th {
+  padding: 2px 2px;
+}
+
+td {
+  width: 55px;
+  height: 22px;
+  text-align: center;
+  border: 1px solid darkcyan;
+  padding: 5px;
+}
+.table {
+  margin: 2.5rem 0.4rem;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.5rem;
+  border: 1px solid rgb(6, 116, 116);
+  color: aliceblue;
+  border-width: 2px 1px 1px 2px;
+  border-style: inset;
+  width: 12.5rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #ffa801, -15px -15px 60px #f1c40f;
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.diez {
+  padding-left: 10px;
+}
+.igual {
+  padding-left: 16px;
+}
+.diez-1 {
+  padding: 0;
+}
+
+.container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.pie {
+  color: aliceblue;
+
+  text-align: center;
+}
